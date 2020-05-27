@@ -1,0 +1,17 @@
+name: re-tail
+version: 0.1.0
+
+authors:
+  - name <asmund.stavdahl@gmail.com>
+
+description: |
+  Extracts the new tail from file #2 assuming that file #2 is a continuation of file #1
+
+license: MIT
+
+executables:
+  - re-tail
+
+targets:
+  re-tail:
+    main: src/main.cr
